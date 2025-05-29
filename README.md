@@ -1,1 +1,1 @@
-# AsciiArtify
+**AsciiArtify** application converts images intoo ascii art with machine learning techniques.
