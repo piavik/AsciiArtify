@@ -18,18 +18,19 @@
 
 ## Summary:
 ### Minikube: 
-This is ideal if you want a full-fledged, isolated Kubernetes cluster on your machine. 
+A full-fledged, isolated Kubernetes cluster on your machine. 
 It can run with virtual machines (providing better isolation) or with Docker/Podman drivers.
-Installation demo
+
 ### Kind: 
-This is an excellent choice if you need fast, easily configurable Kubernetes clusters for development and testing, especially in CI/CD environments. 
+Fast, easily configurable Kubernetes clusters for development and testing, especially in CI/CD environments. 
 It uses Docker containers to run the cluster nodes.
-Installation demo
+
 ### K3d: 
-This is optimal if you're looking for an extremely lightweight and quick way to spin up Kubernetes clusters. 
+A lightweight and quick way to spin up Kubernetes clusters. 
 It's built on K3s, a trimmed-down Kubernetes distribution, making it perfect for development on less powerful machines or for Edge/IoT scenarios.
-Installation demo
+
 
 ---
 ## Conclusion:
 For PoC the best result will be obtained with K3d
+[![asciicast](https://asciinema.org/a/yO7bTPtnmzY5u6U0qyY5Am3xg.svg)](https://asciinema.org/a/yO7bTPtnmzY5u6U0qyY5Am3xg)
